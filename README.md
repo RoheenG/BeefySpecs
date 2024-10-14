@@ -1,0 +1,1 @@
+This is my first website project, which helped me get familiar with HTML and CSS. Through building this site, I learned the basics of structuring content with HTML and styling with CSS, marking my first step into web development.
