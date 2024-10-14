@@ -1,0 +1,90 @@
++
+
+body{
+    background-color:#163b3a;
+    margin:-5px -20px;
+    padding: 0px 0px;
+}
+#PC{
+    width:500px;
+    padding: 0px 100px 0px 130px;
+}
+nav {
+  float:none;
+  transform: translate(-50%,0%);
+  position: absolute;
+  left:50%
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2b7a78;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a, .dropbtn {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover:not(.nav-active), .dropdown:hover .dropbtn {
+    background-color:#3aafa9 ;
+}
+
+nav ul li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    color: white;
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.nav-active {
+    background-color: #2b7a78;
+}
+
+.nav-right {
+    float: right;
+}
+a{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h2{
+    color:white;
+}
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+br{
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
